@@ -46,18 +46,6 @@ pip install -e .
 }
 ```
 
-2. 在 MCP 客户端中调用：
-
-```python
-# 获取上证指数日线数据
-result = await get_price_ashare_mcp(code="sh000001", count=5, frequency="1d")
-print(result)
-
-# 获取贵州茅台15分钟线数据
-result = await get_price_ashare_mcp(code="sh600519", count=5, frequency="15m")
-print(result)
-```
-
 ### 作为独立服务运行
 
 ```bash
