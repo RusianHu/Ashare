@@ -1,5 +1,4 @@
-# Ashare-MCP
-
+<p align="center"><h1>Ashare-MCP</h1></p>
 <p align="center">
   <img src="https://img.shields.io/badge/license-MIT-blue.svg" />
   <img src="https://img.shields.io/badge/python-3.8%2B-blue" />
