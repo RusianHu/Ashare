@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ashare_mcp
+Version: 0.1.0
+Summary: Ashare stock data as MCP service
+Author: Rusian Huu
+Author-email: hu_bo_cheng@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Requires-Dist: fastmcp>=0.1.0
+Requires-Dist: pandas
+Requires-Dist: requests

@@ -1,0 +1,2 @@
+[console_scripts]
+ashare-mcp = ashare_mcp.__main__:main

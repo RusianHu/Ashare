@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "ashare-mcp": {
+      "command": "python",
+      "args": [
+        "-m",
+        "ashare_mcp"
+      ],
+      "alwaysAllow": [
+        "get_price"
+      ],
+      "disabled": false
+    }
+  }
+}
