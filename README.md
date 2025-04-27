@@ -13,7 +13,13 @@ Ashare-MCP 是一个基于 [mpquant/Ashare](https://github.com/mpquant/Ashare) �
 ## 安装
 
 ```bash
-pip install ashare_mcp
+
+# 通过 GitHub 安装
+pip install git+https://github.com/RusianHu/Ashare-mcp.git
+
+# 通过 本地 安装
+pip install -e .
+
 ```
 
 ## 使用方法
@@ -62,7 +68,7 @@ ashare-mcp
 fastmcp serve ashare_mcp
 ```
 
-## API 参考
+## MCP tools
 
 ### get_price
 
