@@ -7,6 +7,7 @@
   <img src="https://img.shields.io/badge/data-A%E8%82%A1-red" />
   <img src="https://img.shields.io/badge/status-active-success" />
   <img src="https://img.shields.io/github/stars/RusianHu/Ashare-mcp?style=social" />
+  <a href="https://smithery.ai/server/RusianHu/ashare-mcp"><img alt="Smithery Badge" src="https://smithery.ai/badge/RusianHu/ashare-mcp"></a>
 </p>
 
 Ashare-MCP 是一个基于 [mpquant/Ashare](https://github.com/mpquant/Ashare) 的股票行情数据服务，通过 MCP (Model Context Protocol) 提供 A 股市场的行情数据查询功能。
@@ -20,6 +21,16 @@ Ashare-MCP 是一个基于 [mpquant/Ashare](https://github.com/mpquant/Ashare) �
 - 简单易用的 API 接口
 
 ## 安装
+
+### 推荐通过 Smithery 安装
+
+为了将 ashare-mcp 作为 MCP 服务在 Claude Desktop 中自动安装并使用，可以使用 [Smithery](https://smithery.ai/server/RusianHu/ashare-mcp)：
+
+```bash
+npx -y @smithery/cli install RusianHu/ashare-mcp --client claude
+```
+
+### 手动安装
 
 ```bash
 # 通过 GitHub 安装
@@ -116,5 +127,3 @@ result = await get_price_ashare_mcp(code="sh600519", count=5, frequency="15m")
 ## 许可证
 
 [MIT](LICENSE)
-
-Copyright © 2025 [RusianHu](https://github.com/RusianHu)
