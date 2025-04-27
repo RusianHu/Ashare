@@ -102,7 +102,3 @@ result = await get_price_ashare_mcp(code="sh600519", count=5, frequency="15m")
 ## 许可证
 
 [MIT](LICENSE)
-
-## 作者
-
-RusianHu
